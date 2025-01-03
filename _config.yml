@@ -1,11 +1,15 @@
-title: Joseph Pascual # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-⚕️ From Music Marketing to Health Care Operations Analyst
-💻 Excel, Tableau, SQL, Python, R
-🎾 Pickleball obsessed
-📍 Sacramento, CA
-<a href="https://www.linkedin.com/in/josephpascual/">View My LinkedIn Profile</a> 
-  
+title: Joseph Pascual
+logo: "/images/logo.png?raw=true"
+description: > 
+  ⚕️ From Music Marketing to Health Care Operations Analyst
+  <br><br>
+  💻 Excel, Tableau, SQL, Python, R
+  <br><br>
+  🎾 Pickleball obsessed
+  <br><br>
+  📍 Sacramento, CA
+  <br><br>
+  <a href="https://www.linkedin.com/in/josephpascual/">View My LinkedIn Profile</a>
+
 theme: jekyll-theme-minimal
-google_analytics: G-X38M2NHY95 # your Google Analytics tracking ID here
+google_analytics: G-X38M2NHY95
