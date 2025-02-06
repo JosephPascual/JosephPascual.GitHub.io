@@ -17,9 +17,14 @@ What schools are struggling the most?
 How does class size affect college admission?
 What are the top math schools in the state? 
 ---
-#### [Massachusetts Education Correction](/sample_project.md)
+#### [Massachusetts Education Lessons](/ma_edu_apology.md)
 📊 I realized my last analysis on the Massachusetts' Education System missed the mark - by a long shot.
 🧐 In the spirit of transparency and continuous learning, I'm sharing my correction and three valuable lessons that transformed my approach to data analysis.
+
+---
+#### [Corrected Massachusetts Education](/ma_edu_corrected.md)[<img src="images/MA Edu Data Project/ma_edu_title photo.png"/>]
+Taking my lessons from my mistakes, here is the refined analysis.
+
 
 ### Projects in Progress
 
