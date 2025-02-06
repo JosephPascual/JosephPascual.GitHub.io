@@ -46,7 +46,7 @@ Analysis of Massachusetts education data reveals that traditional assumptions ab
   * Traditional metrics may not capture important developmental outcomes
   * 100% of student body classified as Students With Disabilities
     
-   ![grad pct](https://github.com/user-attachments/assets/c18cb713-5b77-4bd4-92c9-482cc455ccff)
+![grad pct](https://github.com/user-attachments/assets/c18cb713-5b77-4bd4-92c9-482cc455ccff)
 
 #### Category 2: Resource Allocation and Outcomes
 * Class size findings challenge conventional wisdom
@@ -57,7 +57,7 @@ Analysis of Massachusetts education data reveals that traditional assumptions ab
   * Schools with higher percentages of economically disadvantaged students show lower college attendance rates
   * Exception: "The Gateway to College" achieves 100% college attendance despite 30% economically disadvantaged population
 
-  ![college attendance vs class size](https://github.com/user-attachments/assets/4157f216-4e09-4b0c-9e08-b615f9dd0295)
+![college attendance vs class size](https://github.com/user-attachments/assets/4157f216-4e09-4b0c-9e08-b615f9dd0295)
 
 
 #### Category 3: District Performance
@@ -74,6 +74,9 @@ Analysis of Massachusetts education data reveals that traditional assumptions ab
   * Clear pattern of lower college attendance rates in economically disadvantaged areas
   * Some schools successfully overcome these challenges
   * Need for targeted support in struggling districts
+ 
+![collegeattend vs econ](https://github.com/user-attachments/assets/8eb8a11b-07d2-4573-85ab-6f98ae669b6a)
+
 
 ## Recommendations
 Based on the insights above, we recommend the following actions:
