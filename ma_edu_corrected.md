@@ -1,82 +1,118 @@
-## This can be a template for an internal prject
+# Massachusetts Education System Analysis: Beyond Class Size
+![ma_edu_title photo](https://github.com/user-attachments/assets/3e320740-884b-4645-b64f-43579014e5c8)
 
-**Project description:** You can use this template to create projects in the future. Simply duplicate the page and change the text and images. 
+## Project Background
+The Massachusetts Department of Education has been operating since 1789. As of 2017, the system serves nearly one million students across 1,861 schools, making it one of the largest public education systems in the United States. The department's primary focus is on providing quality education while managing resources effectively and ensuring equitable outcomes for all students.
 
-Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
+Key business metrics include:
+* Graduation rates
+* College admission rates  
+* Academic performance (particularly in math)
+* Student-to-teacher ratios
+* Economic status of student populations
 
-### 1. You can have sections and text.
+An interactive Tableau dashboard used to report and explore sales trends can be found here
 
-Just like this. And you can even add internal coding blocks
 
-```python
-print('this is the python code I used to solve this problem')
-```
+## Data Structure & Initial Checks
+The dataset consists of 1,861 rows and 302 columns, containing comprehensive information about Massachusetts schools.
 
-### 2. You can add any images you'd like. 
+![Screenshot 2025-01-27 175652](https://github.com/user-attachments/assets/a0b3dd7f-fc51-4fd7-9a4c-de314e31846f)
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+While the diagram isn't comprehensive, it captures the main data points used for focus of this project and its logical grouping:
+* School Demographics
+* Academic Performance 
+* Resource Allocation
+* Student Services
 
-# Learning From My Data Analysis Mistakes: A Reflection on Responsibility
+Worth Noting:
+* A: Advanced performance level
+* P+A: Proficient and Advanced combined
+* NI: Needs Improvement
+* CPI: Composite Performance Index (scale from 0-100 that measures progress toward proficiency)
 
-"With great power comes great responsibility."
+## Executive Summary 
 
-This famous Spider-Man quote has been echoing in my mind lately, particularly because I need to address a mistake in my latest data analysis project. Actually, three mistakes – each offering valuable lessons about our responsibilities as data analysts.
+### Overview of Findings
+Analysis of Massachusetts education data reveals that traditional assumptions about educational success factors may need reassessment. Surprisingly, larger class sizes often correlate with higher college attendance rates, suggesting that socioeconomic factors may have more impact than class size alone. The data shows significant disparities in graduation rates, with specialized schools like Curtis-Tufts requiring different success metrics due to their unique student populations. Top-performing districts like Hingham, Winchester, and Lynnfield demonstrate excellence in math despite varying economic conditions.
 
-## The Power of Data Analysis
+![data corrections](https://github.com/user-attachments/assets/47217948-a451-43e7-9e18-4916e9cbd0f2)
 
-As data analysts, we wield significant influence through our ability to transform raw data into insights that drive real-world decisions. Leaders trust us to present truth through data, not confirmation of our own biases. This trust makes it especially important to acknowledge when we fall short.
+### Insights Deep Dive
 
-## What Prompted This Reflection
+#### Category 1: Student Demographics and Performance
+* Specialized schools require unique metrics
+  * Curtis-Tufts School's 0% graduation rate reflects its focus on students with disabilities
+  * Traditional metrics may not capture important developmental outcomes
+  * 100% of student body classified as Students With Disabilities
+    
+   ![grad pct](https://github.com/user-attachments/assets/c18cb713-5b77-4bd4-92c9-482cc455ccff)
 
-Recently, while listening to Julia Galef's audiobook, "Scout Mindset," I experienced that uncomfortable feeling that signals something isn't quite right with how I approached my last data project. The book discusses approaching our beliefs like a scout rather than a soldier – exploring to discover truth rather than defending existing positions. This framework helped me recognize several critical errors in my analysis.
+#### Category 2: Resource Allocation and Outcomes
+* Class size findings challenge conventional wisdom
+  * Larger class sizes correlate with higher college attendance rates
+  * R-squared value of 0.19 indicates statistical significance (p < .05)
+  * Class size explains 19% of graduation rate variation
+* Economic status significantly impacts outcomes
+  * Schools with higher percentages of economically disadvantaged students show lower college attendance rates
+  * Exception: "The Gateway to College" achieves 100% college attendance despite 30% economically disadvantaged population
 
-## The Three Critical Mistakes
+  ![college attendance vs class size](https://github.com/user-attachments/assets/4157f216-4e09-4b0c-9e08-b615f9dd0295)
 
-### 1. The Seduction of Shock Value
 
-Galef introduced the concept of "motivated reasoning", our tendency to process information in ways that support our preferred conclusions rather than truth. I fell into this trap by desiring a "wow factor" that would make my analysis more impactful. This desire to impress led me to accept a suspicious data point (a 0% graduation rate) without proper scrutiny.
+#### Category 3: District Performance
+* Top-performing districts in mathematics
+  * Hingham (91%)
+  * Winchester
+  * Lynnfield 
+* Success achieved despite varying economic conditions
+  
+![econ disadvtg vs grad rate](https://github.com/user-attachments/assets/87197c83-4d06-409e-ab49-1c394cfb212b)
 
-### 2. The Shallow Analysis Trap
+#### Category 4: Access and Equity
+* Economic disparities
+  * Clear pattern of lower college attendance rates in economically disadvantaged areas
+  * Some schools successfully overcome these challenges
+  * Need for targeted support in struggling districts
 
-I failed to apply "Chesterton's Fence" principle, the idea that before criticizing an established system, we must first understand why it exists. Instead of investigating why a school showed a 0% graduation rate, I rushed to make bold recommendations about avoiding certain schools and calling for systemic changes. A more diligent approach would have been to recognize this outlier as a red flag warranting deeper investigation.
+## Recommendations
+Based on the insights above, we recommend the following actions:
 
-### 3. The Fundamental Data Misunderstanding
+* Reevaluate resource allocation strategies
+  * Focus on socioeconomic support rather than exclusively reducing class sizes
+  * Implement successful practices from schools like "The Gateway to College"
+* Develop specialized success metrics
+  * Create alternative performance measures for specialized schools like Curtis-Tufts
+  * Include developmental and life-skills outcomes in evaluation criteria
+* Target economic support programs
+  * Identify and support schools with high percentages of economically disadvantaged students
+  * Study and replicate successful programs from high-performing schools with challenging demographics
+* Enhance district-level support
+  * Study and document best practices from top-performing districts
+  * Develop mentorship programs between high and low-performing districts
+* Implement data-driven decision making
+  * Continue detailed analysis of factors affecting student success
+  * Establish regular monitoring of key performance indicators
 
-Lastly, when I presented my data about 4th grade math levels, I claimed this data was about individual schools, but I've realized that this data is about school districts. Galef emphasizes the importance of "updating incrementally", being willing to revise our understanding when we discover mistakes, rather than clinging to our initial interpretations. Instead of defending my original misinterpretation, I need to update my understanding, and more importantly, correct the record.
+## Assumptions and Caveats
 
-## The Path to Correction
+### Graduation Rate Interpretation
+* Traditional graduation rates may not reflect success for specialized schools
+* Alternative success metrics may be more appropriate for certain student populations such as College Attendance rate
 
-### Understanding the Full Context
+### Statistical Significance
+* Class size correlation with college attendance (R-squared = 0.19) assumes linear relationship
+* Other factors may account for remaining 81% of variation
 
-What initially appeared as a concerning statistic – a 0% graduation rate – revealed something far different upon deeper investigation. Curtis Tufts isn't failing its students; it's serving a specialized population with unique needs. With 100% of its student body classified as Students With Disabilities, the school likely focuses on crucial developmental outcomes and life skills that traditional graduation metrics don't capture.
+### Data Completeness
+* Analysis based on available data points
+* Some schools may have incomplete or missing data, given that the highest grade here is 10th grade, suggesting data for 11th and 12th grade are missing
 
-This realization underscores why context is essential in data analysis. A single metric in isolation can be deeply misleading, especially when dealing with specialized educational institutions.
-
-### Concrete Steps for Correction
-
-* Data Visualization Update
-  * Revising my 4th grade math performance visualization to correctly label it as district-level data
-  * The updated version will include previously missing values to ensure completeness
-
-* Public Correction
-  * Publishing this reflection alongside the corrected analysis
-  * The original post will be updated with a prominent correction notice and link to this reflection
-  * Reaching out to anyone who shared or acted on the original analysis
-
-* Setting the Record Straight about Curtis Tufts
-  * Acknowledging that traditional graduation rates aren't an appropriate metric for evaluating specialized schools
-  * Highlighting the importance of understanding institutional context before making recommendations
-  * Retracting previous recommendations about school choice decisions
-
-## Lessons for the Future
-
-This experience has reinforced several crucial principles for responsible data analysis:
-
-* Question the Outliers: Extreme values should trigger deeper investigation, not immediate conclusions
-* Understand the Context: Educational data, especially, requires understanding the unique circumstances of each institution
-* Verify Data Definitions: Always double-check whether data represents schools, districts, or other organizational levels
-* Challenge Your Assumptions: When findings seem shocking, that's precisely when we need to dig deeper
-
-## Conclusion
-
-Data analysis carries real responsibility – our work affects perceptions of actual institutions and communities. To the Curtis Tufts school community: I sincerely apologize for misrepresenting your specialized mission through my incomplete analysis. Your dedication to supporting students with disabilities deserves recognition, not mischaracterization. This experience has taught me the crucial importance of understanding context and approaching analysis with greater diligence. Moving forward, I commit to remembering that behind every number is a story that deserves to be told accurately and completely.
+## Future Directions
+* Investigate characteristics of schools below 20% graduation rate
+* Analyze impact of additional factors such as:
+  * Race
+  * SAT participation
+  * School funding
+  * Teacher salaries
+* Develop more comprehensive success metrics for specialized schools
