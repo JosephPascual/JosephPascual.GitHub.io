@@ -12,6 +12,9 @@ Insights and recommendations are provided on the following key areas:
 * **Emergency Care Efficiency**: Evaluating the triage efficiency of emergency care by comparing average days in hospital
 * **Length of Stay Analysis**: Examining the overall length of stay of patients
 
+* Targeted SQL queries regarding various operation quests can be found [here](https://docs.google.com/document/d/1W5pK3_eNoK_2_T-1awVWICYyTHJ87eXtzlc4m5aI3hw/edit?tab=t.0)
+* Original data set can be found  [here](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
+
 ## Data Structure & Initial Checks
 
 Dataset Characteristics:
