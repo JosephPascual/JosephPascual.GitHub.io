@@ -71,7 +71,7 @@ Analysis of over 100,000 diabetic patient records reveals patterns in care deliv
 - Direct correlation between lab procedure quantity and hospital stay duration
 
 ### Category 3: Emergency Care Efficiency
-
+![image](https://github.com/user-attachments/assets/b79c2fbe-0b90-4dd8-aaad-008e0f02593b)
 - Emergency admissions average 4.378 days (below overall 4.395 day average)
 - Non-emergency stays average 4.416 days
 - Efficient emergency protocols demonstrate effective triage
