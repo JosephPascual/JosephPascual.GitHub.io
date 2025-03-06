@@ -1,4 +1,6 @@
-# 130 US Hospitals Data Analysis
+![Pulse Check Cover Photo](https://github.com/user-attachments/assets/ec160890-7692-493d-87cb-9eb0294ac7e6)
+
+# Pulse Check: Tapping into Diabetes Care Across 130 US Hospitals 
 
 ## Project Background
 This analysis examines ten years (1999-2008) of clinical care data from 130 US hospitals, focusing on diabetes patient care patterns and resource utilization. The project explores how different departments handle diabetic patients, analyzing variations in care delivery and hospital resource allocation across different patient groups and medical specialties.
@@ -41,7 +43,8 @@ Clinical Information:
 - Medication details
 - Diabetic-specific treatments
 
-[INSERT ERD]
+![ERD](https://github.com/user-attachments/assets/04ee4999-bed2-4d76-9207-b220ac585d08)
+
 
 ## Executive Summary
 
@@ -51,20 +54,27 @@ Analysis of over 100,000 diabetic patient records reveals patterns in care deliv
 ## Insights Deep Dive
 
 ### Category 1: Racial Equity in Care
+![race_lab_meds_time](https://github.com/user-attachments/assets/b65c9424-5fea-4fcf-9e0d-ad2f818448bf)
 - Average lab procedure variations across racial groups are minimal, with maximum difference of four visits between African American and Asian patients
 - Demographic analysis shows no significant systematic bias in care delivery
 - Regular monitoring recommended to maintain care equity
+  
 
 ### Category 2: Hospital Resource Utilization
+![image](https://github.com/user-attachments/assets/e9cfc7db-7842-4b92-9203-cb345a76bb09)
 - Cardiology specialties show highest procedure counts (>2.5 average procedures)
+
+![image](https://github.com/user-attachments/assets/0dece43c-f590-4ce6-a037-6b04e9f1cb5a)
 - Direct correlation between lab procedure quantity and hospital stay duration
 
 ### Category 3: Emergency Care Efficiency
+
 - Emergency admissions average 4.378 days (below overall 4.395 day average)
 - Non-emergency stays average 4.416 days
 - Efficient emergency protocols demonstrate effective triage
 
 ### Category 4: Length of Stay Analysis
+![image](https://github.com/user-attachments/assets/69563f97-7756-4212-8cca-237deeec8c0d)
 - 79% of patients stay 1-6 days
 - 21% remain 7+ days
 - Equal acute/non-acute distribution across stay durations
@@ -100,29 +110,5 @@ Important considerations and future directions:
    - The dataset contains rich information about patient readmission patterns that could be analyzed in future studies
    - Additional investigation could explore relationships between care patterns identified in this study and patient outcomes
    - Potential analysis of how procedure counts and length of stay correlate with readmission rates
-
-
-
-
-
-
-
-## This can be a template for an internal prject
-
-**Project description:** You can use this template to create projects in the future. Simply duplicate the page and change the text and images. 
-
-Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
-
-### 1. You can have sections and text.
-
-Just like this. And you can even add internal coding blocks
-
-```python
-print('this is the python code I used to solve this problem')
-```
-
-### 2. You can add any images you'd like. 
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 
