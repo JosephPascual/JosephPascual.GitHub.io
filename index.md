@@ -1,5 +1,4 @@
 # Welcome to My Portfolio
-## My Projects
 ### [Massachusetts Education System Analysis](/ma_edu_corrected.md)[<img src="images/MA Edu Data Project/ma_edu_title photo.png"/>](https://josephpascual.github.io/ma_edu_corrected.html)
 Myth-busting Massachusetts education analysis! My data deep-dive reveals bigger classes often mean better college attendance, while economic factors—not class size—truly drive student success. Through vibrant visualizations of 1,861 schools serving nearly one million students, I challenge conventional wisdom and propose practical solutions. The surprising takeaway? Less focus on reducing class sizes, more on supporting economically disadvantaged students. Data doesn't just tell stories—it revolutionizes how we approach education.
 
