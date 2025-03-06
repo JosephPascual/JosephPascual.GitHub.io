@@ -11,7 +11,7 @@ Key business metrics include:
 * Student-to-teacher ratios
 * Economic status of student populations
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/joseph.pascual/viz/MassSchoolDataUpdated/Dashboard2?publish=yes)
 
 
 ## Data Structure & Initial Checks
