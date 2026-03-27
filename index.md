@@ -1,6 +1,6 @@
 # Welcome to My Portfolio
 
-### [Bandwidth Dashboard](/projects/bandwidth-dashboard/README.md)[<img src="projects/bandwidth-dashboard/screenshots/dashboard_output_view.png"/>](https://josephpascual.github.io/ma_edu_corrected.html)
+### [Bandwidth Dashboard](/projects/bandwidth-dashboard/README.md)[<img src="projects/bandwidth-dashboard/screenshots/dashboard_output_view.png"/>]([https://josephpascual.github.io/ma_edu_corrected.html](https://github.com/JosephPascual/JosephPascual.GitHub.io/blob/master/projects/bandwidth-dashboard/README.md))
 The Patient Experience team I worked on had no way to objectively measure workload. Just gut feelings and "I'm busy." I built a Google Sheets + Apps Script dashboard that parses free-text task notes using a regex keyword engine, estimates time per task, applies urgency multipliers based on due dates, and returns a single bandwidth score on a 1–5 scale per team member. Adopted by the team supervisor as a daily planning tool within the first week, it replaced two hours of weekly reporting with a ten-second glance and gave leadership real data for staffing decisions during a period of organizational change.
 
 ### [Massachusetts Education System Analysis](/ma_edu_corrected.md)[<img src="images/MA Edu Data Project/ma_edu_title photo.png"/>](https://josephpascual.github.io/ma_edu_corrected.html)
