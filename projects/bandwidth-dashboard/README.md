@@ -28,7 +28,7 @@ I built a Google Sheets dashboard powered by custom Apps Script functions that c
 
 The central design challenge was that task data was unstructured — written in plain English by different team members with different habits. I needed a system that could extract actionable time estimates from messy text without requiring anyone to change how they wrote.
 
-![Task sheet showing escalation cases with free-text Next Steps column](screenshots/taskssheet.png)
+![Task sheet showing escalation cases with free-text Next Steps column](screenshots/task_sheet.png)
 *The raw task sheet — each row is an open escalation case. The "Next Steps" column contains free-text action notes that the keyword engine parses into time estimates.*
 
 The solution was a keyword-to-minutes mapping engine. The script scans each task's "Next Steps" field for action verbs and assigns calibrated time estimates:
