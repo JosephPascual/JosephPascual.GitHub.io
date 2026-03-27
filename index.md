@@ -1,4 +1,8 @@
 # Welcome to My Portfolio
+
+### [Bandwidth Dashboard](/projects/bandwidth-dashboard/README.md)[<img src="projects/bandwidth-dashboard/screenshots/dashboard_output_view.png"/>](https://josephpascual.github.io/ma_edu_corrected.html)
+The Patient Experience team I worked on had no way to objectively measure workload. Just gut feelings and "I'm busy." I built a Google Sheets + Apps Script dashboard that parses free-text task notes using a regex keyword engine, estimates time per task, applies urgency multipliers based on due dates, and returns a single bandwidth score on a 1–5 scale per team member. Adopted by the team supervisor as a daily planning tool within the first week, it replaced two hours of weekly reporting with a ten-second glance and gave leadership real data for staffing decisions during a period of organizational change.
+
 ### [Massachusetts Education System Analysis](/ma_edu_corrected.md)[<img src="images/MA Edu Data Project/ma_edu_title photo.png"/>](https://josephpascual.github.io/ma_edu_corrected.html)
 Myth-busting Massachusetts education analysis! My data deep-dive reveals bigger classes often mean better college attendance, while economic factors—not class size—truly drive student success. Through vibrant visualizations of 1,861 schools serving nearly one million students, I challenge conventional wisdom and propose practical solutions. The surprising takeaway? Less focus on reducing class sizes, more on supporting economically disadvantaged students. Data doesn't just tell stories—it revolutionizes how we approach education.
 
