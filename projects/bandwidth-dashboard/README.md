@@ -5,7 +5,7 @@
 
 ## The Problem
 
-A Patient Experience team at a healthcare company managed escalations between patients and providers — time-sensitive work where falling behind means missed follow-ups and degraded care outcomes. But the team had no way to objectively measure workload. When the supervisor asked "how's your bandwidth?", the answer was always a gut feeling.
+A Patient Experience team at a healthcare company managed escalations between patients and providers. Cases involved time-sensitive work where falling behind means missed follow-ups and degraded care outcomes. But the team had no way to objectively measure workload. When the supervisor asked "how's your bandwidth?", the answer was always a subjective feeling that is prone to recency bias and skewed perceptions.
 
 Tasks lived in a shared spreadsheet, but nothing in that sheet answered the questions that actually mattered: *How long will these tasks take? Which ones are urgent? Who has capacity right now?*
 
@@ -26,7 +26,7 @@ I built a Google Sheets dashboard powered by custom Apps Script functions that c
 
 ### Turning Text Into Time: The Keyword Engine
 
-The central design challenge was that task data was unstructured — written in plain English by different team members with different habits. I needed a system that could extract actionable time estimates from messy text without requiring anyone to change how they wrote.
+The central design challenge was that task data was unstructured, written in plain English by different team members with different habits. I needed a system that could extract actionable time estimates from messy text without requiring anyone to change how they wrote.
 
 ![Task sheet showing escalation cases with free-text Next Steps column](screenshots/task_sheet.png)
 *The raw task sheet — each row is an open escalation case. The "Next Steps" column contains free-text action notes that the keyword engine parses into time estimates.*
@@ -44,7 +44,7 @@ The solution was a keyword-to-minutes mapping engine. The script scans each task
 Multiple actions separated by `+` or `|` are summed (e.g., `Has patient called? + Bump PT` = 2 + 5 = **7 minutes**). This let team members write naturally while the system parsed accurately.
 
 ![Apps Script showing the timeMap array with regex patterns and minute values](screenshots/timemap_app_script.png)
-*The keyword engine in Apps Script — regex patterns ordered longest-first to avoid partial matches, with case-insensitive flags and inline comments documenting edge cases like "Fascilitate."*
+*The keyword engine in Apps Script using regex patterns ordered longest-first to avoid partial matches, with case-insensitive flags and inline comments documenting edge cases and common typos like "Fascilitate."*
 
 ### Urgency Multipliers
 
@@ -65,7 +65,7 @@ The "no date defaults to today" decision was deliberate — undated tasks tend t
 
 ### The Score
 
-Total weighted task time ÷ available minutes = utilization ratio, mapped to a 1–5 scale. Base available time defaults to **420 minutes** (8-hour day minus lunch/breaks), adjustable for meetings.
+Total weighted task time ÷ available minutes = utilization ratio, mapped to a 1–5 scale. Base available time defaults to **320 minutes** (8-hour day minus lunch/breaks), adjustable for meetings.
 
 | Score | Meaning |
 |-------|---------|
